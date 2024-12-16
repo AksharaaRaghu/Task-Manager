@@ -1,0 +1,101 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#B3E5FC"
+    android:orientation="vertical"
+    android:layout_marginTop="30dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:text="Task Manager "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:text="Email Id "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"/>
+
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:text="Password "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"/>
+
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColor="#090707"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:text="Task Name "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:text="Description "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:text="Deadline "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:text="Priority "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="#FFFFFF"
+        android:text="Add Task"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>
